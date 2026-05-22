@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,7 +8,7 @@ function App() {
   return (
     <main>
       <Navbar />
-      <h1 className="text-2xl font-bold font-regular">Hello!</h1>
+      <Hero />
     </main>
   )
 }
